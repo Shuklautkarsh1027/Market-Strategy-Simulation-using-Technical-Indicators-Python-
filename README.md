@@ -11,19 +11,6 @@ This project demonstrates a simple rule-based trading strategy using technical i
 
 ---
 
-## Folder Structure
-
-Market_Strategy_Simulation/
-├── data/
-│ └── synthetic_financial_data_2021_2024.csv # Synthetic stock data (NIFTY50, RELIANCE, etc.)
-├── src/
-│ ├── indicators.py # Functions for RSI, SMA calculation
-│ ├── strategy.py # Signal generation based on strategy
-│ └── backtest.py # Backtesting engine
-├── main.py # Main script to run the simulation
-├── requirements.txt # Required libraries
-└── README.md # Project documentation
-
 
 
 ---
@@ -54,6 +41,3 @@ The dataset is fully synthetic but statistically realistic, covering the time pe
 
 Each row contains: Date, Ticker, Open, High, Low, Close, Volume.
 
-
-git clone https://github.com/yourusername/Market_Strategy_Simulation.git
-cd Market_Strategy_Simulation
