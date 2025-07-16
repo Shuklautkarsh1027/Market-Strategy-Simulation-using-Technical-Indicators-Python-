@@ -1,6 +1,7 @@
 <img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/eeb43556-cdb7-463a-ae1b-d497fbd1be64" />
 
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/b373c10c-c02b-4999-ab7c-8b7878f5f345" />
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/25ff832d-937e-4865-81c7-c63e803802aa" />
+
 
 
 # Market Strategy Simulation — Quantitative Trading Project
