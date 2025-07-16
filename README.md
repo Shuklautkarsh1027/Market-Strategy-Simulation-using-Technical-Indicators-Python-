@@ -1,4 +1,8 @@
-<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/02ff46e3-9285-42a9-8fcd-b035a0a8a355" />
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/eeb43556-cdb7-463a-ae1b-d497fbd1be64" />
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/b373c10c-c02b-4999-ab7c-8b7878f5f345" />
+
+
 # Market Strategy Simulation — Quantitative Trading Project
 
 This project demonstrates a simple rule-based trading strategy using technical indicators such as RSI and SMA, applied to synthetic stock market data. The goal is to simulate buy/sell decisions and track how a portfolio would perform over time, using Python.
