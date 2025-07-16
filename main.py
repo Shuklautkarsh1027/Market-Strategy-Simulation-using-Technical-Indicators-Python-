@@ -27,3 +27,32 @@ plt.ylabel("Capital")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+df = generate_signals(df)
+trades = []
+capital = 100000
+position = 0
+
+for i in range(1, len(df)):
+    price = df.iloc[i]['Close']
+    signal = df.iloc[i - 1]['Signal']
+    date = df.iloc[i]['Date']
+
+    if signal == 1 and capital > 0:
+        position = capital / price
+        trades.append({'Date': date, 'Action': 'Buy', 'Price': price, 'Capital': capital})
+        capital = 0
+
+    elif signal == -1 and position > 0:
+        capital = position * price
+        trades.append({'Date': date, 'Action': 'Sell', 'Price': price, 'Capital': capital})
+        position = 0
+        
+import pandas as pd
+trades_df = pd.DataFrame(trades)
+trades_df.to_csv("output/trades.csv", index=False)
+
+
+print(df['Signal'].value_counts())
+
+print(df[df['Signal'] != 0][['Date', 'Close', 'RSI', 'SMA20', 'Signal']].head(10))
